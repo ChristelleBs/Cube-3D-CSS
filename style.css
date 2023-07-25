@@ -62,8 +62,6 @@ body {
     transform: rotateX(-180deg) translateZ(100px);
 }
 
-
-
 @keyframes spin {
     from {
         transform: rotateX(0deg) rotateY(0deg);
@@ -72,4 +70,12 @@ body {
     to {
         transform: rotateX(360deg) rotateY(360deg);
     }
+}
+
+.icon {
+    padding: 0;
+    margin: 63px 62px 62px 58px;
+    font-size: 4.1rem;
+    color: rgba(245, 245, 245, 0.861);
+    filter: drop-shadow(7px 8px 2px #6b2148);
 }
